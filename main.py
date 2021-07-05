@@ -7,8 +7,8 @@ This is a multifunctional Python script for Raspberry Pi.
 
 
 # AUTHORINFO
-__author__ = "Joel Chapon"
-__email___ = "joel.chapon@student.kdg.be"
+__author__ = "Simon Fransen"
+__email___ = "simon.fransen@student.kdg.be"
 __status__ = "Finished"
 
 

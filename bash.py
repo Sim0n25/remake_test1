@@ -6,8 +6,8 @@ Simple bash commands
 import os
 
 # AUTHORINFO
-__author__ = "Joel Chapon"
-__email___ = "joel.chapon@student.kdg.be"
+__author__ = "Simon Fransen"
+__email___ = "Simon.fransen@student.kdg.be"
 __status__ = "Finished"
 
 
