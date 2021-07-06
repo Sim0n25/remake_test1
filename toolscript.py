@@ -13,6 +13,7 @@ def main(): #functie
     # VARIABLES
     mariaDB ="sudo apt install mariadb-server"#variabele is mariaDB en die leest dat als mariadb-server
     website = "sudo git pull https://github.com/Sim0n25/remake_test1.git"
+    website2 = " sudo chmod a+x toolscript.py"
     upgrade = "sudo apt update && sudo apt upgrade -y"  # wanneer ik het woord upgrade schrijf in mijn script leest die dat als sudo apt.. upgrade is een variabele=
 
 
@@ -33,6 +34,7 @@ def main(): #functie
 
     elif keuze == "website" :
         os.system(website)
+        os.system(website2)
         main()
 
     else:
