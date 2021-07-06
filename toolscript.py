@@ -3,7 +3,7 @@
 #een python toolscript om uw linux os te upgraden of maria db te installeren
 #sudo git pull https://github.com/Sim0n25/remake_test1.git
 
-#KFZJAOIAGEIHG
+#KFZJAOIAGEIHGrrr((((((((((((((((
 
 
 import os
