@@ -15,13 +15,14 @@ def main(): #functie
     website = "sudo git pull https://github.com/Sim0n25/remake_test1.git"
     website2 = " sudo chmod a+x toolscript.py"
     upgrade = "sudo apt update && sudo apt upgrade -y"  # wanneer ik het woord upgrade schrijf in mijn script leest die dat als sudo apt.. upgrade is een variabele=
+    # fd = open("C:\\Users\Simon\PycharmProjects\Git\Git\remake test1\text.txt", "r")
 
 
     # PRINTS
     print("upgrade = upgrade your linux")
     print("mariaDB = install mariadb")
     print("Website = update website")
-
+    print("txt.file = run txt.file")
 
     keuze = input("geef uw keuze ") #wat er geprint wordt
     if keuze == "upgrade": #als de keuze upgrade is gebeurt er iets, zo niet "foute keuze" door except line
@@ -36,6 +37,18 @@ def main(): #functie
         os.system(website)
         os.system(website2)
         main()
+
+    elif keuze == "txt.file" :
+        file = open("text.txt")
+        txt = file.readline()
+        while txt:
+            print(txt)
+            os.system(txt)
+            txt = file.readline()
+
+        file.close()
+        main()
+
 
     else:
         print("foute keuze") #als mijn keuze upgrade is doet die dat. Als dat niet een vd ifs erboven is gaat die else doen
