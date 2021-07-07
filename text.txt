@@ -1,10 +1,6 @@
-sudo apt update && sudo apt upgrade -y
 sudo apt install apache2 -y
 sudo apt install php -y
-sudo service apache2 restart
 sudo apt install mariadb-server php-mysql -y
-sudo service apache2 restart
 sudo mysql_secure_installation
 sudo apt install phpmyadmin -y
-sudo phpenmod mysqli
 sudo service apache2 restart
